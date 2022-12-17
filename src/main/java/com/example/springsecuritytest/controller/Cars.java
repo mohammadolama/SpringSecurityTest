@@ -27,10 +27,7 @@ public class Cars {
         list.add(new Car(name));
     }
 
-    @GetMapping({ "/hello" })
-    public String firstPage() {
-        return "Hello World";
-    }
+
 
 }
 
